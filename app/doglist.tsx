@@ -7,6 +7,12 @@ export default async function DogList() {
 
     const items = [];
 
+    if(dogs.length === 0) return (
+        <div>
+            No Dogs Found
+        </div>
+    )
+
     for (const dog of dogs) {
         items.push(
         <div key={dog._id}>
