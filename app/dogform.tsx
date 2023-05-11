@@ -14,7 +14,7 @@ export default function DogForm() {
         await Dog.create({ name: data.get('name'), breed: data.get('breed')});
     
         revalidatePath('/');
-      }
+    }
 
     return(  
         <>
