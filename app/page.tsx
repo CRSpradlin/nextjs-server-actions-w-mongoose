@@ -1,4 +1,3 @@
-import { Suspense } from "react";
 import DogForm from "./dogform";
 import DogList from "./doglist";
 import Nav from "./nav";
